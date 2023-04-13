@@ -1,0 +1,45 @@
+html {
+    background: linear-gradient(to left, #e8ff9c , #c3cfff);
+    font-family: 'Sono', sans-serif;
+    color: rgb(77, 77, 77);
+}
+
+body {
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+h1 {
+    position: relative;
+    text-align: center;
+}
+
+div {
+   position: absolute;
+    height: 80%;
+    width: 37%;
+    top: 100px;
+}
+
+#div0 {
+    background-color: #e8ff9c;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    margin-left: 10%;
+}
+
+#div1 {
+    background-color: #c3cfff;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    margin-left: 50%;  
+}
+
+span {
+    
+    position: fixed;
+    background-color: rgb(224, 255, 210);
+    border-color: rgb(95, 95, 95);
+    border-style: solid;
+    font-size: 20px;
+    padding: 5px;
+}
