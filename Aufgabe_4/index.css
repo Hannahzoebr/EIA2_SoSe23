@@ -1,55 +1,59 @@
 body {
-	font-family:'Courier New', Courier, monospace;
-	margin: 0;
-	padding: 0;
-	background-color: #b08f8f93;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b08f8f93;
     color: rgb(55, 55, 55);
 }
 
 h1 {
-	text-align: left;
-	margin-top: 20px;
-    margin-left: 5%;
-    font-size: 40px;
+    text-align: left;
+    margin-top: 15px;
+    font-size: 20px;
+
+
 }
 
-h2 { 
+h2 {
     margin-top: 2px;
     margin-bottom: 2px;
+    font-size: 18px;
+    text-align: center;
 }
 
 .list {
-	margin-top: 20px;
-    
+    margin-top: 20px;
+
 }
 
 .task {
-	background-color: #ffffff;
-	border-radius: 5px;
-	padding: 10px;
-	margin-bottom: 10px;
-	box-shadow: 0px 2px 2px rgba(50, 50, 50, 0.2);
-	max-width: 500px;
-	width: 100%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+
 }
 
 .task p {
-	margin: 5px 0;
+    margin: 5px 0;
 
 }
 
 .task button {
-	margin: 5px;
-	background-color:#ffa97b;
-	color: rgb(0, 0, 0);
-	border: none;
-	border-radius: 3px;
-	padding: 5px 10px;
-	cursor: pointer;
+    margin: 5px;
+    background-color: #84b6b3;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
 }
 
 .task button:hover {
-	background-color: #ef7c3e;
+    opacity: 0.4;
 }
 
 .form {
@@ -60,8 +64,8 @@ h2 {
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
     max-width: 500px;
     width: 100%;
-	
-	
+
+
 }
 
 .form input,
@@ -77,8 +81,8 @@ h2 {
 
 .form button {
     margin: 5px;
-    background-color: #baff8d;
-    color: rgb(12, 12, 12);
+    background-color: #84b6b3;
+    color: white;
     border: none;
     border-radius: 3px;
     padding: 5px 10px;
@@ -86,5 +90,14 @@ h2 {
 }
 
 .form button:hover {
-    background-color: #94e45e;
+    opacity: 0.4;
+}
+
+.newTask {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #292929;
+    padding: 10px;
+    margin-bottom: 10px;
+
 }
